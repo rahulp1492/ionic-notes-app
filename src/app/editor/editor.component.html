@@ -1,0 +1,6 @@
+<ion-content padding>
+<!-- Textarea with custom number of rows and cols -->
+<ion-item>
+<ion-textarea placeholder="Enter your notes here" spellcheck="true" (ionInput)="[saveNote()]" debounce="1000" id="note" maxlength="1000" mode="md" name="note" value="{{note}}"></ion-textarea>
+</ion-item>
+</ion-content>
